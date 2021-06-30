@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>Join New Release Where The links given other wise you can't access The Content Or Click This Link For New HD Release https://t.me/joinchat/btN1KIZzIu1kMmM1 or This Link For Joining And Accessing New Movie Links https://t.me/joinchat/0gx-M_5sCoMyZGFl Check Links At @requestmoviesmalayalam Found</i> <code>{leng}</code> <i>Results For Your Request 😺:</i> <code>{query}</code>"
+    text=f"<i>Click New Release and join otherwise you can't access The Content /n Check Links At @requestmoviesmalayalam Found</i> <code>{leng}</code> <i>Results For Your Request 😺:</i> <code>{query}</code>"
         
     try:
         await update.message.edit(
