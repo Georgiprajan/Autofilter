@@ -203,7 +203,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"Join New Release Where The links given other wise you can't access The Content Or Click This Link For New HD Release https://t.me/joinchat/btN1KIZzIu1kMmM1 or This Link For Joining And Accessing New Movie Links https://t.me/joinchat/0gx-M_5sCoMyZGFlCheck Links At @requestmoviesmalayalam Found {(len_results)} Results For Your Request 😺: <code>{query}</code>",
+                text=f"Join New Release Where The links given other wise you can't access The Content /n Check Links At @requestmoviesmalayalam Found {(len_results)} Results For Your Request 😺: <code>{query}</code>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
